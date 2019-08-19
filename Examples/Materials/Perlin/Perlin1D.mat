@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Perlin1D
+  m_Shader: {fileID: 4800000, guid: 0995ab1cd1880744ca915de19b69c867, type: 3}
+  m_ShaderKeywords: _DIMENSION_1D _NONE_PERIODIC _NORMALMAP _PERIODIC
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HMTex:
+        m_Texture: {fileID: 2800000, guid: 65f7a7b5dfb251749ac984165c6d0f81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cicle: 1
+    - _Dimension: 0
+    - _Force: 100
+    - _Octaves: 7
+    - _Periodic: 1
+    - _Radius: 1
+    - _Smooth: 16.4
+    m_Colors:
+    - _Offset: {r: 0, g: 0, b: 4.56, a: 0}
+    - _Period: {r: 10, g: 2, b: 2, a: 1}
+    - _Tiling: {r: 10, g: 0.01, b: 0, a: 1}
